@@ -18,11 +18,15 @@
         {
             "type": "vcs",
             "url": "https://github.com/mssimi/WidopHttpAdapterBundle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mssimi/google-analytics"
         }
     ],
     "require": {
         "symfony/framework-bundle": ">=2.3",
-        "widop/google-analytics": "1.0.*",
+        "widop/google-analytics": "dev-symfony3",
         "petrepatrasc/http-adapter-bundle": "dev-symfony3"
     },
     "require-dev": {
