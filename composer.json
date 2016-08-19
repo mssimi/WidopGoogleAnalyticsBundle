@@ -14,10 +14,16 @@
             "email": "geloen.eric@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mssimi/WidopHttpAdapterBundle"
+        }
+    ],
     "require": {
-        "symfony/framework-bundle": "2.*",
+        "symfony/framework-bundle": ">=2.3",
         "widop/google-analytics": "1.0.*",
-        "widop/http-adapter-bundle": "1.*"
+        "petrepatrasc/http-adapter-bundle": "dev-symfony3"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*"
